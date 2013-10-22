@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+		<!-- you need to set the map level here-->
+	<MapDetail >
+		<!-- Size details and level number-->
+		<Height > 10 </Height>
+		<Width  > 10 </Width>
+	</MapDetail>
+	<Map>
+		<!-- map layout
+		b = baseLayerBlock
+		x = normal block
+		m = moveable block
+		- = open door block
+		r = change room block
+		! = end block
+		c = circle entrance
+		s = square entrance
+		p = triangle entrance
+		@ = chest right
+		# = chest left
+		& = empty open chest
+		* = closed chest
+		^ = Pyramid ShapeItem
+		o = Sphere ShapeItem
+		+ = Square ShapeItem
+		$ = Coin Game Item
+		e = End -->
+		<Ground level = "0">
+
+			<gRow>bbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbb</gRow>
+			<gRow>brbbbbbbbb</gRow>
+		</Ground>
+		<Top level = "1">
+
+			<tRow>xxxxxxxxxx</tRow>
+			<tRow>x.x..$.$.x</tRow>
+			<tRow>x.x...$..x</tRow>
+			<tRow>x.x..$.$.x</tRow>
+			<tRow>x.x......x</tRow>
+			<tRow>x.xxxxxxxx</tRow>
+			<tRow>x.p.....kx</tRow>
+			<tRow>x.x......x</tRow>
+			<tRow>x.xxxxxxxx</tRow>
+			<tRow>x.xxxxxxxx</tRow>
+		</Top>
+				<Locations>
+			<LocOne>
+				<p1x>1</p1x>
+				<p1y>1</p1y>
+			</LocOne>
+			<LocTwo>
+				<p2x>1</p2x>
+				<p2y>1</p2y>
+			</LocTwo>
+			<Entrance>
+				<EntX>8</EntX>
+				<EntY>1</EntY>
+			</Entrance>
+			<KeyDoor>
+				<kX>2</kX>
+				<kY>2</kY>
+			</KeyDoor>
+		</Locations>
+	</Map>
+</Document>

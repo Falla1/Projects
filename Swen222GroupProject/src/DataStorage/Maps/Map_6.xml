@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+	<!-- you need to set the map level here -->
+	<MapDetail>
+		<!-- Size details and level number -->
+		<Height> 40 </Height>
+		<Width> 40 </Width>
+	</MapDetail>
+	<Map>
+		<!-- map layout
+		b = baseLayerBlock
+		x = normal block
+		m = moveable block
+		c = circle entrance
+		s = square entrance
+		p = triangle entrance
+		@ = chest right
+		# = chest left
+		& = empty open chest
+		* = closed chest
+		^ = Pyramid ShapeItem
+		o = Sphere ShapeItem
+		+ = Square ShapeItem
+		e = End -->
+		<Ground level="0">
+
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbrbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbrbbbbbbbbbbbbbbbbbbbb</gRow>
+		</Ground>
+		<Top level="1">
+
+			<tRow>.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</tRow>
+			<tRow>..............@............m........c...</tRow>
+			<tRow>..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...</tRow>
+			<tRow>..m.................................x...</tRow>
+			<tRow>..x.................................x..+</tRow>
+			<tRow>..x.................................xxxx</tRow>
+			<tRow>..xxxxxxxxxxxxxxxxxxxxxxxxxxxxx.........</tRow>
+			<tRow>...........................^..x.........</tRow>
+			<tRow>o..xxxxxxxxxxxxxxxxxxxxxxxxxxxx.........</tRow>
+			<tRow>........................................</tRow>
+			<tRow>........................................</tRow>
+			<tRow>..........xxxxxxxxxxxxxxmxxxxxxxxx......</tRow>
+			<tRow>..........p......................x......</tRow>
+			<tRow>..........x....xxxxxxxxxxx.......x......</tRow>
+			<tRow>..........x...+x.........x.......x......</tRow>
+			<tRow>..........x.#..x.........x.......x......</tRow>
+			<tRow>...........xxxxx.........xxxxx...x......</tRow>
+			<tRow>...........c.................x...x......</tRow>
+			<tRow>...........xxxxx.........xxxxx...x......</tRow>
+			<tRow>...m......x....x.........x.......x......</tRow>
+			<tRow>..........x....x.........x.......x......</tRow>
+			<tRow>..........x..+.xxxxxxxxxxxx@....#x......</tRow>
+			<tRow>..........x...............xxxxxxxx......</tRow>
+			<tRow>..........x.............................</tRow>
+			<tRow>..........xxxxxxxmxxxxxxxxxxxxxxx.......</tRow>
+			<tRow>...............................xxxxxxx..</tRow>
+			<tRow>................................x@......</tRow>
+			<tRow>................................x.......</tRow>
+			<tRow>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..x.......</tRow>
+			<tRow>..xxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxx...</tRow>
+			<tRow>....................................x...</tRow>
+			<tRow>.......xxxxxxxxxx..........xxxxxxx..x...</tRow>
+			<tRow>.......c..^.....x..........x.....x.^x...</tRow>
+			<tRow>.......xxxxxxxxxx..........x.....xxxx...</tRow>
+			<tRow>...........................x............</tRow>
+			<tRow>.xx...x.x...x...x.x..xx...xxx...xxxxxxxx</tRow>
+			<tRow>.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..c...</tRow>
+			<tRow>....................................x...</tRow>
+			<tRow>...................................@x...</tRow>
+			<tRow>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.</tRow>
+		</Top>
+				<Locations>
+			<LocOne>
+				<p1x>1</p1x>
+				<p1y>1</p1y>
+			</LocOne>
+			<LocTwo>
+				<p2x>17</p2x>
+				<p2y>8</p2y>
+			</LocTwo>
+			</Locations>
+	</Map>
+</Document>

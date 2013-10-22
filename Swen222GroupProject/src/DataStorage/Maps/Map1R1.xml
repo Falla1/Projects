@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+		<!-- you need to set the map level here-->
+	<MapDetail >
+		<!-- Size details and level number-->
+		<Height >20</Height>
+		<Width  >20</Width>
+	</MapDetail>
+	<Map>
+		<!-- map layout
+		b = baseLayerBlock
+		x = normal block
+		m = moveable block
+		- = open door block
+		r = change room block
+		! = end block
+		c = circle entrance
+		s = square entrance
+		p = triangle entrance
+		@ = chest right
+		# = chest left
+		& = empty open chest
+		* = closed chest
+		^ = Pyramid ShapeItem
+		o = Sphere ShapeItem
+		+ = Square ShapeItem
+		k = key
+		d = removeable block for key
+		e = End -->
+		<Ground level = "0">
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbrb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+			<gRow>bbbbbbbbbbbbbbbbbbbb</gRow>
+		</Ground>
+		<Top level = "1">
+			<tRow>xxxxxxxxxxxxxxxxxxxx</tRow>
+			<tRow>x.x@x......p.....$.x</tRow>
+			<tRow>x.x.x......x.....$.x</tRow>
+			<tRow>x.x.x......x.....$.x</tRow>
+			<tRow>x.x.x......x.....$.x</tRow>
+			<tRow>x.x.x......x.......x</tRow>
+			<tRow>x.x.x......x.......x</tRow>
+			<tRow>x.xsx......x.......x</tRow>
+			<tRow>x.x........x.......x</tRow>
+			<tRow>x.x.xxxxxxxxxxxxxxxx</tRow>
+			<tRow>x.x.x....$.........x</tRow>
+			<tRow>x.x.x..........%...x</tRow>
+			<tRow>x.x.x..............x</tRow>
+			<tRow>x.x.xxxx....k......x</tRow>
+			<tRow>x.x.c.$x...........x</tRow>
+			<tRow>x.x.xxxx.........^.x</tRow>
+			<tRow>x.x.xxx............x</tRow>
+			<tRow>x.x.x%xx...........x</tRow>
+			<tRow>x.m.....x..........x</tRow>
+			<tRow>xxxxxxxxxxxxxxxxxxxx</tRow>
+		</Top>
+				<Locations>
+			<LocOne>
+				<p1x>1</p1x>
+				<p1y>1</p1y>
+			</LocOne>
+			<LocTwo>
+				<p2x>17</p2x>
+				<p2y>8</p2y>
+			</LocTwo>
+			<Entrance>
+				<EntX>1</EntX>
+				<EntY>1</EntY>
+			</Entrance>
+			<KeyDoor>
+				<kX>9</kX>
+				<kY>5</kY>
+			</KeyDoor>
+		</Locations>
+	</Map>
+</Document>

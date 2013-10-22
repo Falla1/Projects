@@ -1,0 +1,29 @@
+Hi! Welcome to Shapely Rimmers Circus!
+You can use the cursor keys to navigate the world.
+You need a backpack to pick up items.
+Your back pack is pretty and blue, do you see it?.
+Display your backpack's contents and the map with the 'I' key.
+You'll need a backpack before you can do that.
+You may only pass through a door of the shape as you.
+You can change shape by picking up the correct shape item.
+Shape Items appear in your inventory.
+Do you like cake?
+Click a Shape Item to change shape.
+You can collect items from chests.
+Shape items appear in your inventory.
+Click a Shape item to change shape.
+Some blocks are moveable, some are not.
+We're doing science!
+Some blocks require a key to remove them, see any keys?.
+Red tiles allow you to change rooms, see any Red Tiles?.
+You can change rooms if you want to.
+Finish the game and you'll get cake.
+But you need to work together to change rooms.
+Speaking of rooms, stand on a gold tile with your mate.
+Everyone loves to score, Collect some coins Casanova.
+Want to win? Don't we all? Coins, coins, coins.
+Coins are worth mucho dollars, and a full map!
+Have fun!
+Seriously though... have fun!
+The cake is a lie!Just kidding!
+You can't actually win this game! Woops.
